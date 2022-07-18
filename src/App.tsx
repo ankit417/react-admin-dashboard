@@ -1,7 +1,5 @@
 import React from "react";
-import { HomePage } from "./pages/homepage/homePage.page";
-import { Button } from "./components/button/Button.component";
-import logo from "./logo.svg";
+import { Button, SideBar, Accordion } from "./components";
 import "./App.css";
 import "./style/main.scss";
 
@@ -9,11 +7,15 @@ function App() {
   return (
     <div className="App">
       <Button
-        title={"hello"}
+        title={"Button"}
         onClick={() => {
-          alert("hello world");
+          alert("Button Component");
         }}
       />
+      <Accordion />
+      <Accordion />
+      <Accordion />
+      <SideBar />
     </div>
   );
 }

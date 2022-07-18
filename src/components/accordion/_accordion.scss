@@ -1,0 +1,13 @@
+.accordion-wrapper {
+  .accordion {
+    width: 100%;
+    background-color: #d0ded5;
+    cursor: pointer;
+    padding: 10px;
+  }
+  .panel {
+    padding: 0 10px;
+    max-height: 999px;
+    transition: max-height 2s;
+  }
+}
