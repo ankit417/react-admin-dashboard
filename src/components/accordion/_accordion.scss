@@ -7,7 +7,6 @@
   }
   .panel {
     padding: 0 10px;
-    max-height: 999px;
-    transition: max-height 2s;
+    transition: all 2s;
   }
 }

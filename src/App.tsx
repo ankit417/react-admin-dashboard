@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, SideBar, Accordion } from "./components";
+import { Button, SideBar, Accordion, Toast } from "./components";
 import "./App.css";
 import "./style/main.scss";
 
@@ -15,6 +15,7 @@ function App() {
       <Accordion />
       <Accordion />
       <Accordion />
+      <Toast />
       <SideBar />
     </div>
   );
