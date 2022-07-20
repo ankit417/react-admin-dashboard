@@ -6,14 +6,12 @@
   right: 10px;
   display: flex;
   flex-direction: column;
-  max-height: 0;
-  transition: max-height 0.5s ease-in-out;
   .toast-item {
     padding: 10px 0;
     background-color: red;
     margin-top: 10px;
     border-radius: 5px;
-    transition: 0.2s;
+    transition: height 0.2s;
     .item {
       //   margin: 25px;
     }
