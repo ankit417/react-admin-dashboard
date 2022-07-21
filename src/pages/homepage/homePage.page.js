@@ -1,5 +1,11 @@
 import React from "react";
-
+import { SideBar, Button, Toast, Accordion } from "../../components";
 export const HomePage = () => {
-  return <div>This is home page</div>;
+  return (
+    <div>
+      <SideBar />
+      <Toast />
+      <Accordion />
+    </div>
+  );
 };
