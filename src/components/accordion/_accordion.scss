@@ -6,7 +6,10 @@
     padding: 10px;
   }
   .panel {
-    padding: 0 10px;
-    transition: all 2s;
+    background-color: red;
+    transition: height 0.5s;
+    overflow: hidden;
+    min-height: 0px;
+    max-height: 400px;
   }
 }

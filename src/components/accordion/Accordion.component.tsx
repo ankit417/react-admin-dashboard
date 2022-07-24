@@ -18,7 +18,7 @@ export const Accordion = () => {
       <div
         className="panel"
         style={{
-          display: isActive ? "block" : "none",
+          height: isActive ? "auto" : 0,
         }}
       >
         <p>
