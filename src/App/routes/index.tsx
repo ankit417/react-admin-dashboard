@@ -1,13 +1,14 @@
 import React from "react";
-import { SideBar, Button, Toast, Accordion } from "../../components";
+import { SideBar, Button, Toast, Accordion, DropZone } from "../../components";
 export const Main = () => {
   return (
     <div>
       <div>
-        <SideBar />
+        {/* <SideBar />
         <Button onClick={() => {}} title="Button" />
         <Toast />
-        <Accordion />
+        <Accordion /> */}
+        <DropZone />
       </div>
     </div>
   );

@@ -1,11 +1,9 @@
 import React from "react";
-import { SideBar, Button, Toast, Accordion } from "../../components";
+import { SideBar, Button, Toast, Accordion, DropZone } from "../../components";
 export const HomePage = () => {
   return (
     <div>
-      <SideBar />
-      <Toast />
-      <Accordion />
+      <DropZone />
     </div>
   );
 };

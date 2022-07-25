@@ -1,0 +1,36 @@
+.dropzone-wrapper {
+  position: relative;
+  height: 100vh;
+  .todo {
+    position: absolute;
+    height: 100%;
+    width: 200px;
+    background-color: grey;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    &-item {
+      width: 90%;
+      background-color: red;
+      padding: 10px;
+      margin: 5px 0;
+    }
+  }
+
+  .completed {
+    position: absolute;
+    height: 100%;
+    width: 200px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: grey;
+
+    &-item {
+      width: 90%;
+      background-color: yellow;
+      padding: 10px;
+      margin: 5px 0;
+    }
+  }
+}
