@@ -1,0 +1,61 @@
+.file-uploader-wrapper {
+  border: 1px solid grey;
+  width: 50%;
+  margin: 100px;
+  border-radius: 10px;
+  &-container {
+    padding: 10px;
+
+    &-header {
+      font-family: sans-serif;
+      font-weight: bold;
+      padding: 20px 0;
+    }
+    .image-dropzone-section {
+      border: 1px dotted grey;
+      padding: 20px;
+      margin: 10px 50px;
+      border-radius: 10px;
+
+      .dropzone-default-image {
+        img {
+          width: 200px;
+        }
+      }
+    }
+
+    .uploaded-file-item {
+      display: flex;
+      //   justify-content: center;
+      background-color: yellow;
+      margin: 20px;
+      align-items: center;
+      img {
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+        margin-left: 20px;
+      }
+      .uploaded-item-name {
+        margin: 0 20px;
+      }
+
+      .uploaded-item-remove {
+        cursor: pointer;
+      }
+    }
+
+    .file-uploader-upload {
+      input {
+        display: none;
+      }
+      .abstract-file-upload-button {
+        padding: 10px;
+        background-color: cyan;
+        border-radius: 10px;
+        box-shadow: 2px 2px darken(cyan, 12%);
+        margin: 0 20px;
+      }
+    }
+  }
+}

@@ -1,5 +1,12 @@
 import React from "react";
-import { SideBar, Button, Toast, Accordion, DropZone } from "../../components";
+import {
+  SideBar,
+  Button,
+  Toast,
+  Accordion,
+  DropZone,
+  FileUploader,
+} from "../../components";
 export const Main = () => {
   return (
     <div>
@@ -8,7 +15,8 @@ export const Main = () => {
         <Button onClick={() => {}} title="Button" />
         <Toast />
         <Accordion /> */}
-        <DropZone />
+        {/* <DropZone /> */}
+        <FileUploader />
       </div>
     </div>
   );

@@ -3,3 +3,4 @@ export * from "./accordion/Accordion.component";
 export * from "./sidebar/Sidebar.component";
 export * from "./toast/Toast.component";
 export * from "./dropzone/dropzone.component";
+export * from "./fileUploader/fileUploader.component";
