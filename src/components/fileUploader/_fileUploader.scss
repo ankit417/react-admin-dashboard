@@ -1,6 +1,6 @@
 .file-uploader-wrapper {
   border: 1px solid grey;
-  width: 50%;
+  // width: 50%;
   margin: 100px;
   border-radius: 10px;
   &-container {
@@ -12,9 +12,10 @@
       padding: 20px 0;
     }
     .image-dropzone-section {
-      border: 1px dotted grey;
+      border: 1px dashed grey;
+      border-spacing: 5px;
       padding: 20px;
-      margin: 10px 50px;
+      margin: 10px 30px;
       border-radius: 10px;
 
       .dropzone-default-image {
@@ -26,10 +27,11 @@
 
     .uploaded-file-item {
       display: flex;
-      //   justify-content: center;
-      background-color: yellow;
-      margin: 20px;
+      justify-content: space-between;
+      background-color: #fef9ef;
+      margin: 20px 30px;
       align-items: center;
+      border-radius: 5px;
       img {
         width: 50px;
         height: 50px;
@@ -38,23 +40,32 @@
       }
       .uploaded-item-name {
         margin: 0 20px;
+        max-width: 50%;
+        overflow: hidden;
       }
 
       .uploaded-item-remove {
         cursor: pointer;
+        margin-right: 20px;
+
+        &:hover {
+          color: #fe6d73;
+        }
       }
     }
 
     .file-uploader-upload {
+      margin: 40px 0;
       input {
         display: none;
       }
       .abstract-file-upload-button {
         padding: 10px;
-        background-color: cyan;
+        background-color: #ffcb77;
         border-radius: 10px;
-        box-shadow: 2px 2px darken(cyan, 12%);
+        box-shadow: 2px 2px 5px grey;
         margin: 0 20px;
+        cursor: pointer;
       }
     }
   }
